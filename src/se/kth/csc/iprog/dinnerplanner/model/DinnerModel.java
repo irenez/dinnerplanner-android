@@ -3,9 +3,8 @@ package se.kth.csc.iprog.dinnerplanner.model;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DinnerModel {
+public class DinnerModel  {//implements IDinnerModel {
 	
-
 	Set<Dish> dishes = new HashSet<Dish>();
 	
 	/**
@@ -18,7 +17,7 @@ public class DinnerModel {
 	/**
 	 * The constructor of the overall model. Set the default values here
 	 */
-	public DinnerModel(){
+	public DinnerModel() {
 		
 		//Adding some example data, you can add more
 		Dish dish1 = new Dish("French toast",Dish.STARTER,"toast.jpg","In a large mixing bowl, beat the eggs. Add the milk, brown sugar and nutmeg; stir well to combine. Soak bread slices in the egg mixture until saturated. Heat a lightly oiled griddle or frying pan over medium high heat. Brown slices on both sides, sprinkle with cinnamon and serve hot.");
@@ -94,6 +93,7 @@ public class DinnerModel {
 		}
 		return result;
 	}
+	
 	
 	
 
