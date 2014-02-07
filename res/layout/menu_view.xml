@@ -4,20 +4,33 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:id="@+id/this_is_menu_view_id" >
-    
-
-    <TextView
-        android:id="@+id/message_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="@string/participants" />
 
     <Button
         android:id="@+id/confirm_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/start" />
+        android:text="@string/button_start" />
 
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm_button"
+        android:layout_alignRight="@+id/confirm_button"
+        android:layout_marginBottom="29dp"
+        android:gravity="center_vertical"
+        android:text="@string/participants" />
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    
+    <ImageView
+			android:id="@+id/starter_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:src="@drawable/mush-tart"	/>
 
 </RelativeLayout>

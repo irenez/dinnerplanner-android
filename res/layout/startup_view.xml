@@ -17,7 +17,8 @@
         android:id="@+id/confirm_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/message_text"
+        android:layout_centerHorizontal="true"
         android:text="@string/button_start" />
-
 
 </RelativeLayout>

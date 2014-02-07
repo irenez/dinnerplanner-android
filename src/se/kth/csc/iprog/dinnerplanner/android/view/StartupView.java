@@ -16,6 +16,7 @@ public class StartupView {
 		message.setText("Welcome to Dinner Planner! \n \nHere you will be able to easily plan your dinner. \n\nOn the next page start by selecting number of participants. Then select your courses. \n\nWatch Magic Happen!");
 
 		// Setup the rest of the view layout
+		
 
 	}
 }
